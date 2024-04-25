@@ -26,7 +26,7 @@ let handleSubmit = () => {
         <div class="container w-full lg:w-2/5 mx-auto px-5">
             <section class="py-16">
                 <h4 class="text-sm tracking-widest uppercase text-center text-white font-theme-heading">Get in touch</h4>
-                <h2 class="text-3xl md:text-4xl font-medium text-center text-white mt-9 mb-10 font-theme-heading">Ready to explore Mykonos with us? Fill out the form below to book your transportation services today!</h2>
+                <h2 class="text-3xl md:text-4xl font-medium text-center text-white mt-9 mb-10 font-theme-heading">Ready to explore Mykonos with us?<br> Fill out the form below to book your transportation services today!</h2>
 
                 <form @submit.prevent="handleSubmit()">
                     <div class="relative flex flex-col items-center lg:flex-row justify-center lg:space-x-3">
@@ -41,7 +41,9 @@ let handleSubmit = () => {
                         <Button type="submit" btn-type="secondary">Submit</Button>
                     </div>
                 </form>
-                <h4 class="py-8 text-sm tracking-widest uppercase text-center text-white font-theme-heading">Mobile: +30696969696 | Email: email@email.com</h4>
+                <h2 class="text-3xl md:text-4xl font-medium text-center text-white mt-6 mb-6 font-theme-heading">OR Contact us directly through the contact info down below:</h2>
+
+                <h4 class="py-4 text-sm tracking-widest uppercase text-center text-white font-theme-heading">Mobile: +30696969696 | Email: email@email.com</h4>
             </section>
         </div>
     </div>
