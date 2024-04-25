@@ -1,1 +1,1 @@
-![Site Screenshot](public\images\site-screenshot.png)
+![Site Screenshot](public/images/site-screenshot.png)
