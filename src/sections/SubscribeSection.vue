@@ -41,6 +41,7 @@ let handleSubmit = () => {
                         <Button type="submit" btn-type="secondary">Submit</Button>
                     </div>
                 </form>
+                <h4 class="py-8 text-sm tracking-widest uppercase text-center text-white font-theme-heading">Mobile: +30696969696 | Email: email@email.com</h4>
             </section>
         </div>
     </div>
